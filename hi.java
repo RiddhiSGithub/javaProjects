@@ -22,6 +22,7 @@ public class hi {
                 System.out.println("Enter your username:");
                 username = scanner.nextLine();
 
+                //checking if user input is empty...
                 if (username.isEmpty()) {
                     System.out.println("The Username is empty. Please try again.");
                 }
