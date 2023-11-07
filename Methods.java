@@ -67,13 +67,13 @@ public class Methods {
         System.out.println("Power of 5 to 2 is " +powerResult);
 
         //using min() method
-        int a=6, b=9, c=3;
+        int a=6, b=9;
         int minVal = Math.min(a,b);
         System.out.println("Minimum value between a & b is " +minVal);
 
 
         //using max() method
-        int x=6, y=9, z=3;
+        int x=6, y=9;
         int maxVal = Math.max(x,y);
         System.out.println("Maximum value between x & y is " +maxVal);
 
