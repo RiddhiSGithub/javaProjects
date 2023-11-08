@@ -26,9 +26,19 @@ public class Methods {
         System.out.print("Hello "+name);
     }
 
+    //creating private method for sum
+    private int multiply(int x,int y){
+        return x*y;
+    }
+
+
+    //creating protected method
+
 
     //calling the above created method in main function
     public static void main(String[] args) {
+
+        //calling non-static method
 
         //calling the method with static
         System.out.println("The sum of 5 and 3 is: "+addition(5,3));
@@ -95,5 +105,10 @@ public class Methods {
         //cheking is if it is  equal or not
         boolean checkEqual = str.equalsIgnoreCase("hello world!");
         System.out.println("Is the given string equals to 'hello world!'? :"+checkEqual);
+
+
+        //calling privat method
+        int result1 = new Methods().multiply(5,6);
+        System.out.println("\nResult from Private method is: " +result1);
     }    
 }
