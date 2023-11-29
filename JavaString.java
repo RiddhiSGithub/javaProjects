@@ -29,6 +29,10 @@ public class JavaString {
 
         //comparing strings
         // compareTo()
+        // in this it willcheck three condition
+        // 1. String1 > String2 : provide positive value
+        // 2. String1 == String2 : provide zero value
+        // 3. String1 < String2 : provide Negative value 
         String compairStr1 = "riddhijain";
         String compairStr2 = "riddhii";
         int comparisonResult = compairStr1.compareTo(compairStr2);

@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "twoDArray",
+            "request": "launch",
+            "mainClass": "twoDArray",
+            "projectName": "java_621b306a"
+        },
+        {
+            "type": "java",
+            "name": "StringJava",
+            "request": "launch",
+            "mainClass": "StringJava",
+            "projectName": "java_621b306a"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "java_621b306a"
+        },
+        {
+            "type": "java",
+            "name": "AdvancePattern",
+            "request": "launch",
+            "mainClass": "AdvancePattern",
+            "projectName": "java_621b306a"
+        },
+        {
+            "type": "java",
+            "name": "SolidRectangle",
+            "request": "launch",
+            "mainClass": "SolidRectangle",
+            "projectName": "java_621b306a"
+        },
+        {
+            "type": "java",
+            "name": "FirstClass",
+            "request": "launch",
+            "mainClass": "FirstClass",
+            "projectName": "java_621b306a"
+        },
+        {
+            "type": "java",
             "name": "Methods",
             "request": "launch",
             "mainClass": "Methods",
