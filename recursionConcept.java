@@ -39,13 +39,14 @@ public class recursionConcept {
 
     public static void printFibonacci(int n,int First, int second){
         
+        if(n==0){
+            return ;
+        }
         int value=First+second;
-        System.out.print(value+", ");
         First = second;
         second = value;
-        for(int i=0; i<n-3; i++){
-            printFibonacci(i, First, second);
-        }
+        System.out.print(value+", ");
+        printFibonacci(n-2, First, second);
     }
     
     public static void main(String arg[]){
