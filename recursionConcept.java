@@ -46,7 +46,7 @@ public class recursionConcept {
         First = second;
         second = value;
         System.out.print(value+", ");
-        printFibonacci(n-2, First, second);
+        printFibonacci(n-1, First, second);
     }
     
     public static void main(String arg[]){
@@ -59,9 +59,9 @@ public class recursionConcept {
 
         printFectorial(1, 4, 1);
 
-        int First = 0, second = 1;
+        int First = 0, second = 1, x= 10;
         System.out.print(First+", ");
         System.out.print(second+", ");
-        printFibonacci(10, First,second);
+        printFibonacci(x-2, First,second);
     }
 }
