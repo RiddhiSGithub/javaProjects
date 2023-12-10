@@ -1,6 +1,8 @@
 public class ShortingJava {
     public static void main(String arg[]){
         // bubble short
+        System.out.println("----------------------------------------------");
+        System.out.println("Bubble Short: ");
         int[] hello = new int[4];
         // int[] hello = new int[4];
         hello[0] = 4;
@@ -11,30 +13,70 @@ public class ShortingJava {
         System.out.println("befor in Order");
         for(int i = 0;i<hello.length;i++){
             System.out.println(hello[i]);
-        }
-        System.out.println("-----------------------------------------------");
-        int  k = hello.length, m;
+        }// for
+
+        int m;
         for(int i = 0;i<hello.length;i++){
-            for(int j = 0;j<k;j++){
+            for(int j = 0;j<hello.length;j++){
                 if(i==j){
                     continue;
-                }
+                }//if
                 if(hello[i]>hello[j]){
                     continue;
-                }else if(hello[i]<hello[j]){
+                }//if
+                else if(hello[i]<hello[j]){
                     m = hello[j];
                     hello[j] = hello[i];
                     hello[i] = m;
-                }
+                }// else if
                 
-            }
-            // k-=1;
-            
-        }
+            }// for  j
+        }// for i
         
         System.out.println("After in Order");
         for(int i = 0;i<hello.length;i++){
             System.out.println(hello[i]);
-        }        
+        }//for
+        
+        System.out.println("-----------------------------------------------");
+        // selection shorting
+        System.out.println("Selection Shorting: ");
+
+        int select[] = new int[4];
+        select[0] = 3;
+        select[1] = 9;
+        select[2] = 5;
+        select[3] = 1;
+
+        System.out.println("befor in Order");
+        for(int i = 0;i<select.length;i++){
+            System.out.println(select[i]);
+        }// for
+
+        System.out.println("-----------------------------------------------");
+        
+        int n;
+        for(int i= 0;i<select.length;i++){
+            for(int j=0;j<select.length;j++){
+                if(i==j){
+                    continue;
+                }
+                if(select[i]<select[j]){
+                    // continue;
+                    n = select[i];
+                    select[i] = select[j];
+                    select[j] = n;
+                }else if(select[i]>select[j]){
+                    continue;
+                }
+            }// for j
+            
+        } // for
+
+        System.out.println("After in Order");
+        for(int i = 0;i<select.length;i++){
+            System.out.println(select[i]);
+        }//for
+
     }
 }
