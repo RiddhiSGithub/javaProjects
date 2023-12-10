@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShortingJava",
+            "request": "launch",
+            "mainClass": "ShortingJava",
+            "projectName": "java_621b306a"
+        },
+        {
+            "type": "java",
             "name": "recursionConcept",
             "request": "launch",
             "mainClass": "recursionConcept",
