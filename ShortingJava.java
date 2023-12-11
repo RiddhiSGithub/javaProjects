@@ -62,15 +62,17 @@ public class ShortingJava {
                     continue;
                 }
                 if(select[i]<select[j]){
+                    continue;
+                    
+                }else if(select[i]>select[j]){
                     // continue;
                     n = select[i];
-                    select[i] = select[j];
-                    select[j] = n;
-                }else if(select[i]>select[j]){
-                    continue;
-                }
+                    if(j==select.length-1){
+                        select[i] = select[j];
+                        select[j] = n;
+                    }// if
+                }// else if
             }// for j
-            
         } // for
 
         System.out.println("After in Order");
@@ -78,5 +80,20 @@ public class ShortingJava {
             System.out.println(select[i]);
         }//for
 
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("Insertion Sort: ");
+        int[] insertion = new int[4];
+        insertion[0] = 5;
+        insertion[1] = 1;
+        insertion[2] = 4;
+        insertion[3] = 9;
+
+        for(int i=1; i<insertion.length;i++){
+            for(int j=0; j<=i ; j++){
+                if (insertion[i]<insertion[j]) {
+                    
+                }
+            }
+        }
     }
 }
