@@ -88,12 +88,27 @@ public class ShortingJava {
         insertion[2] = 4;
         insertion[3] = 9;
 
+        System.out.println("Befor in Order");
+        for(int i=0;i <insertion.length;i++){
+            System.out.println(insertion[i]);
+        }//for
+        int temp;
         for(int i=1; i<insertion.length;i++){
-            for(int j=0; j<=i ; j++){
+            for(int j=0; j<i ; j++){
+                if(i==j){continue;}
                 if (insertion[i]<insertion[j]) {
-                    
+                    temp = insertion[i];
+                    insertion[i] = insertion[j];
+                    insertion[j] = temp;
+                }else if(insertion[i]>insertion[j]){
+                    continue;
                 }
-            }
-        }
+            }// for j
+        } // for i
+        System.out.println("After in Order");
+        for(int i=0;i <insertion.length;i++){
+            System.out.println(insertion[i]);
+        }// for
     }
+
 }
