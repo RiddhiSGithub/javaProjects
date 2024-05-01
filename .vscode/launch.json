@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortingArray",
+            "request": "launch",
+            "mainClass": "sortingArray",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "todoList",
+            "request": "launch",
+            "mainClass": "todoList",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
