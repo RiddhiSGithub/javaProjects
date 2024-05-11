@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumAverageSubarray",
+            "request": "launch",
+            "mainClass": "MaximumAverageSubarray",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "maximumAverageSubarray",
+            "request": "launch",
+            "mainClass": "maximumAverageSubarray",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "slidingWindow",
+            "request": "launch",
+            "mainClass": "slidingWindow",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
