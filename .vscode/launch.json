@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxAverage",
+            "request": "launch",
+            "mainClass": "MaxAverage",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
             "name": "MaximumAverageSubarray",
             "request": "launch",
             "mainClass": "MaximumAverageSubarray",
