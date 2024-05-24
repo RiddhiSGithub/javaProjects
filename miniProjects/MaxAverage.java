@@ -23,7 +23,7 @@ public class MaxAverage {
     }
 
     public static void main(String[] arg){
-        int[] number={1,12,-5,-6,50,3};
+        int[] number={1,12,-5,-40,50,3};
         int k = 4;
 
         MaxAverage MA = new MaxAverage();

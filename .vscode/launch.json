@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "listInJava",
+            "request": "launch",
+            "mainClass": "listInJava",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "practiceInheritance1",
+            "request": "launch",
+            "mainClass": "practiceInheritance1",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "practiceInheritance1",
+            "request": "launch",
+            "mainClass": "inheritanceJavaOOP.practiceInheritance1",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "miniCalculator",
+            "request": "launch",
+            "mainClass": "miniCalculator",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "temp",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "maxConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "maxConsecutiveOnes",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
             "name": "MaxAverage",
             "request": "launch",
             "mainClass": "MaxAverage",
