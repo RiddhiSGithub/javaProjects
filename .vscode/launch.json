@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "minimumValueToGetPositiveSum",
+            "request": "launch",
+            "mainClass": "minimumValueToGetPositiveSum",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "runningSumOf1dArray",
+            "request": "launch",
+            "mainClass": "runningSumOf1dArray",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "maxConsecutiveOnes2",
+            "request": "launch",
+            "mainClass": "maxConsecutiveOnes2",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
             "name": "listInJava",
             "request": "launch",
             "mainClass": "listInJava",
