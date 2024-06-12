@@ -48,12 +48,15 @@ public class miniCalculator {
     // if you dont want to use static
     public static void main(String[] args) {
         // with static
-        summary s = new summary();
-        s.plus();
+        // summary s = new summary();
+        // s.plus();
 
-        // without static 
-        miniCalculator calculator = new miniCalculator();
-        min m = calculator.new min();
-        m.minus();
+        // // without static 
+        // miniCalculator calculator = new miniCalculator();
+        // min m = calculator.new min();
+        // m.minus();
+
+        int num =1;
+        num+=num;
     }
 }

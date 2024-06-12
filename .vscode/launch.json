@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "roundNum",
+            "request": "launch",
+            "mainClass": "roundNum",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "coddy",
+            "request": "launch",
+            "mainClass": "coddy",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
+            "name": "reverseTheString",
+            "request": "launch",
+            "mainClass": "reverseTheString",
+            "projectName": "javaProjects_6ba94122"
+        },
+        {
+            "type": "java",
             "name": "minimumValueToGetPositiveSum",
             "request": "launch",
             "mainClass": "minimumValueToGetPositiveSum",
